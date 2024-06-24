@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(155,155,255),rgb(68,68,189));
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 20px 0 30px rgb(48,48,48,0.526);
+}
+.left-container,.right-container-img{
+    width: 50%;
+}
+a{
+    color: rgb(155,155,255);
+}
+.left-container .newuser{
+    font-weight: 600;
+    margin: 0 10px;
+}
+.left-container h2{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.left-container{
+    float: left;
+    position: relative;
+    top:30px;
+    left: 40px;
+}
+.left-container .Input_label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-container .input_user{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 30px;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 75%;
+    font-size: 18px;
+}
+.left-container input[type="checkbox"]{
+    vertical-align: middle;
+}
+.left-container .input_checking{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.left-container .input_checking span{
+    color: black;
+}
+.left-container .input_checking a{
+    font-weight: 600;
+}
+.left-container button{
+    padding: 12px 40px;
+    border: 0;
+    outline: 0;
+    width:75%;
+    background-color: rgb(68,68,189);
+    border-radius: 40px;
+    color: #ffff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+   cursor: pointer;
+}
+.left-container button:hover{
+    background-color: navy;
+}
+.right-container-img{
+    float: right;
+}
+.right-container-img img{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    right: 10px;
+}

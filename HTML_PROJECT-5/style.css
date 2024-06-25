@@ -1,0 +1,103 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(287deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.left-container{
+    float: left;
+    width: 50%;
+}
+.left-container img{
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.right-container{
+    float: right;
+    width: 50%;
+}
+.main-container {
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(252, 250, 250, 0.637);
+}
+.right-container p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.right-container h2{
+    font-size: 24px;
+    margin-left: 30px;
+}
+.main-container .right-container input{
+    /* display: block; */
+    padding: 30px 50px 30px 20px;
+    border: 1px solid black;
+    outline: 0;
+    border-radius: 5px;
+    /* height: auto;
+    width: 300px; */
+    margin-left: 60px;
+}
+
+.right-container input:focus{
+    box-shadow: 0 0 30px rgb(48,48,48,0.526);
+}
+.right-container
+.right-container input[type="text"]{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.right-container input[type="email"]{
+    margin-bottom: -1px;
+    margin-top: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.right-container input[type ="tel"]{
+    margin-bottom: -1px;
+    margin-top: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.right-container input[type="password"]{
+    margin-bottom: 5px;
+    margin-top: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.right-container input[type="checkbox"]{
+    margin-top: 20px;
+}
+
+.right-container button{
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: cornflowerblue;
+    border: 0;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.right-container .checkbox_rem .check_label{
+    width: 0;
+    height: 0;
+}
